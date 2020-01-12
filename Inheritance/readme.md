@@ -18,7 +18,7 @@ Ex. - `Class A Extend Class B AND Class B Extent Class C`
 When one class A inherit many sub class B,C,D etc.
 Ex. - `Class B Extent Class A and Class C extend Class A`
 
-** Hybrid Inheritance**
+**Hybrid Inheritance**
 Hybrid inheritance is a combination of Single and Multiple inheritance.
 Ex. - `Class A extend Class B and C, Class B extend Class D,  Class C extend Class D`
 
