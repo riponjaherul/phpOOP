@@ -1,2 +1,2 @@
 <?php
-include_once 'Inheritence.php';
+include_once 'Polymorphism/Faculty.php';
