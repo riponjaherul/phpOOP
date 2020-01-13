@@ -15,6 +15,7 @@ class Employee{
     {
         $this->activeDays = $this->monthDays - ($absent+(int)($late/3));
         $paySalary = $this->activeDays * $this->salaryAmount/$this->monthDays;
+        // @number_format php by default function, it is format salary amount
         $this->paySalary = number_format($paySalary,2);
         return $this;
     }
@@ -36,16 +37,18 @@ $employee->salaryAmount = 27500;
 $employee->calculateSalary(1,1);
 $employee->display();
 echo '<br>---------------<br>';
-$employee->name = 'Majumder';
-$employee->month = 'February';
-$employee->monthDays = 28;
-$employee->salaryAmount = 32000;
-$employee->calculateSalary(0,5);
-$employee->display();
+$employee1 = new Employee;
+$employee1->name = 'Majumder';
+$employee1->month = 'February';
+$employee1->monthDays = 28;
+$employee1->salaryAmount = 32000;
+$employee1->calculateSalary(0,5);
+$employee1->display();
 echo '<br>---------------<br>';
-$employee->name = 'Akram';
-$employee->month = 'November';
-$employee->monthDays = 30;
-$employee->salaryAmount = 14500;
-$employee->calculateSalary(2,0);
-$employee->display();
+$employee2 = new Employee;
+$employee2->name = 'Akram';
+$employee2->month = 'November';
+$employee2->monthDays = 30;
+$employee2->salaryAmount = 14500;
+$employee2->calculateSalary(2,0);
+$employee2->display();
