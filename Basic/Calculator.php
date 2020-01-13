@@ -4,6 +4,34 @@ class Calculator{
     private $b = 0;
     private $result = 0;
 
+    /** 
+     * @Start
+     * @Description : This part used as Constructor and Destructor
+    */
+    public function __construct(int $a,int $b)
+    {
+        $this->a = $a;
+        $this->b = $b;
+    }
+
+    public function add()
+    {
+        $this->result = $this->a + $this->b;
+    }
+
+    public function __destruct()
+    {
+        $this->a = $this->b = 0;
+        echo '<br>Destructor works...!';
+    }
+    /**
+     * @End
+     */
+
+    /** 
+     * @Start
+     * @Description : This part used as Getter and Setter Method with $this Keywords
+    */
     public function setA(int $a)
     {
         $this->a = $a;
@@ -28,15 +56,16 @@ class Calculator{
     {
         $this->result = $this->getA() + $this->getB();
     }
-
+    /**
+     * @End
+     */
     public function getResult():int
     {
         return $this->result;
     }
 }
 
-$cal = new Calculator();
-$cal->setA(2);
-$cal->setB(3);
+$cal = new Calculator(3,4);
 $cal->add();
-echo $cal->getResult();
+echo $cal->getResult().'<br>';
+echo $cal->getA();
