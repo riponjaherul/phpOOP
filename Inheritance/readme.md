@@ -27,5 +27,7 @@ Ex. - `Class A extend Class B and C, Class B extend Class D,  Class C extend Cla
 **Access Modifier in Inheritance**
 
  1. Method and Properties marked as protected can be accessed from Child and Parent Class.
- 2. Method and Properties marked as protected can not be accessed from Outside class, it is similar to Private
+ 2. Method and Properties marked as protected can not be accessed from Outside class, it is similar to Private.
 
+
+***In Method Overriding, Once Child class override parent method then child class does not call those method in patent class***
