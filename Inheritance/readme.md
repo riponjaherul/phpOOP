@@ -23,3 +23,9 @@ Hybrid inheritance is a combination of Single and Multiple inheritance.
 Ex. - `Class A extend Class B and C, Class B extend Class D,  Class C extend Class D`
 
 ***Php does not support Multiple and Hybrid Inheritance***
+
+**Access Modifier in Inheritance**
+
+ 1. Method and Properties marked as protected can be accessed from Child and Parent Class.
+ 2. Method and Properties marked as protected can not be accessed from Outside class, it is similar to Private
+
