@@ -11,7 +11,7 @@ class Parents{
     }
 
     // This parent bedroom no one can access this 
-    final function bedroom(){
+    public function bedroom(){
         echo '<strong>This parents Bedroom</strong>';
     }
 
