@@ -1,2 +1,2 @@
 <?php
-include_once 'ToString.php';
+include_once 'DebugInfo.php';
