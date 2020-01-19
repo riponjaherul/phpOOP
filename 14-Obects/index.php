@@ -1,2 +1,2 @@
 <?php
-include_once 'PhpCache.php';
+include_once 'ComparingObject.php';
