@@ -16,7 +16,7 @@ $post2->post = "This is Modified";
 echo "Post 1 Object : ".$post1->post.'<br>';
 echo "Post 2 Object : ".$post2->post.'<br>';
 echo '<br>--------After Modified [In Clone Object]---------<br>';
-$post3 = clone $post2;
+$post3 = clone $post2; // Clone => Copy by value
 $post3->post = "This is Modified Too!";
 echo "Post 1 Object : ".$post1->post.'<br>';
 echo "Post 3 Object : ".$post3->post.'<br>';
