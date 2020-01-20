@@ -1,2 +1,2 @@
 <?php
-include_once 'SingleTrails.php';
+include_once 'MultipleTraits.php';
