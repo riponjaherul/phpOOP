@@ -1,2 +1,2 @@
 <?php
-include_once 'ComparingObject.php';
+include_once 'CloningObject.php';
