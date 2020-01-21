@@ -5,12 +5,14 @@
 **S.O.L.I.D stands for:**
 When expanded the acronyms might seem complicated, but they are pretty simple to grasp.
 
- - S - Single-responsibility principle
- - O - Open-closed principle
- - L - Liskov substitution principle
- - I - Interface segregation principle
- - D - Dependency Inversion Principle
+ 1. S - Single-responsibility principle
+ 2. O - Open-closed principle
+ 3. L - Liskov substitution principle
+ 4. I - Interface segregation principle
+ 5. D - Dependency Inversion Principle
 
 **Reference :**
-	Link 1 : https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
-Link 2 : http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
+
+ 1.  https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
+ 2. http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
+
