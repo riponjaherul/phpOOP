@@ -1,22 +1,23 @@
 <?php
-// namespace Library;
-require_once 'Files.php';
-require_once 'Database.php';
-// spl_autoload_register(function($className){
-//     echo "Loading class: $className<br>";
-//     require_once "$className.php";
-// });
+namespace Library;
+include_once 'vendor/autoload.php';
 
-$files = new Library\Files();
-$database = new Library\Database;
+$files = new Files();
+$database = new Database;
+$string = new String\StringOperation;
 $files->uploadFile();
 $database->SaveData();
+$string->hello();
 
 /**
  * @Start => Step 1
  */
+/**
+ * If any class not under namespace(if use namespace in declared class), then use
+ * Backward Slash(\) to call this class
+ */
 // $files = new Files();
-// $database = new \Database; // This class does not under in Namespace 
+// $database = new \Database;
 // $files->uploadFile();
 // $database->SaveData();
 /**

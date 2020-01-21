@@ -1,0 +1,16 @@
+{
+    "name": "vagrant/16-namespaceautoloading",
+    "authors":[
+        {
+            "name":"Jaherul Islam Ripon",
+            "email": "riponjaherul@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Library\\":"Library/"
+        }
+    },
+    "description": ""
+}
