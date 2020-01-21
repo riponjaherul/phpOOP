@@ -13,5 +13,4 @@ When expanded the acronyms might seem complicated, but they are pretty simple to
 
 **Reference :**
 	Link 1 : https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design
-	Link 2 : http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
-
+Link 2 : http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod
