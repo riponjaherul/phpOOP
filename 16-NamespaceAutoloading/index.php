@@ -16,10 +16,10 @@ $string->hello();
  * If any class not under namespace(if use namespace in declared class), then use
  * Backward Slash(\) to call this class
  */
-// $files = new Files();
-// $database = new \Database;
-// $files->uploadFile();
-// $database->SaveData();
+$files = new Files();
+$database = new \Database;
+$files->uploadFile();
+$database->SaveData();
 /**
  * @End => Step 1
  */
